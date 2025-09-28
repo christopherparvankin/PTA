@@ -156,20 +156,20 @@ export default function Home() {
           {currentChunk >= 0 && (
             <p 
               style={{
-                color: '#ffffff !important',
-                fontSize: isMobile ? '1.3rem !important' : '2rem !important',
-                lineHeight: isMobile ? '1.5 !important' : '1.6 !important',
-                textAlign: 'center !important',
-                fontFamily: 'Arial, Helvetica, sans-serif !important',
-                maxWidth: isMobile ? '100% !important' : '1000px !important',
-                width: '100% !important',
-                margin: '0 !important',
-                padding: isMobile ? '0 10px !important' : '0 !important',
+                color: '#ffffff',
+                fontSize: isMobile ? '1.3rem' : '2rem',
+                lineHeight: isMobile ? '1.5' : '1.6',
+                textAlign: 'center',
+                fontFamily: 'Arial, Helvetica, sans-serif',
+                maxWidth: isMobile ? '100%' : '1000px',
+                width: '100%',
+                margin: '0',
+                padding: isMobile ? '0 10px' : '0',
                 opacity: isVisible ? 1 : 0,
                 transition: 'opacity 1s ease-in-out',
-                display: 'block !important',
-                whiteSpace: 'normal !important',
-                wordBreak: 'normal !important'
+                display: 'block',
+                whiteSpace: 'normal',
+                wordBreak: 'normal'
               }}
             >
               {textChunks[currentChunk]}
