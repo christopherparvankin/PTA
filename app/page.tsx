@@ -6,8 +6,9 @@ import Image from 'next/image'
 const textChunks = [
   "A man stands before the mirror. His own eyes search him, and in the silence he asks, who do I wish to become?",
   "Before him, a road forks. One path carries light, trembling and fragile; the other, shadowed, wet with regret. Choose wrongly, and he will learn—all that awaits is grief's unyielding hand, a harvest of pain, and a garden of loss.",
+  "But in this moment of choice, a scent drifts through the air... golden, crispy, irresistible. Nacho fries call to him from the shadows.",
   "This man is no stranger, for this man is you.",
-  "And in your trembling hands lies the weight of your becoming.",
+  "And in your trembling hands lies the weight of your becoming—and the fate of nacho fries everywhere.",
   "What choice shall you make?"
 ]
 
@@ -140,7 +141,7 @@ export default function Home() {
               e.currentTarget.style.color = '#ffffff'
             }}
           >
-            Press for Fate
+            Press for Fate & Fries
           </button>
         </div>
       ) : !showImage ? (

@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PTA Website',
-  description: 'A cinematic experience',
+  title: 'PTA Website - Fate & Fries',
+  description: 'A cinematic experience about choice, destiny, and nacho fries',
 }
 
 export const viewport = {
